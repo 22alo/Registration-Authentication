@@ -4,7 +4,7 @@ const bcrypt = require('bcrypt');
 const jwt = require('jsonwebtoken');
 const app = express();
 const PORT = 3000;
-
+const app
 // Middleware to parse JSON requests
 app.use(express.json());
 
